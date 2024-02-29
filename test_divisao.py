@@ -11,8 +11,6 @@ def dividir(dividendo, divisor):
     Returns:
     float: O resultado da divisão.
     """
-    if divisor == 0:
-        raise ValueError("Não é possível dividir por zero.")
     return dividendo / divisor
 
 class TestDividir(unittest.TestCase):

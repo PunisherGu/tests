@@ -18,10 +18,5 @@ jobs:
       with:
         python-version: 3.8
 
-    - name: Instalar dependências
-      run: |
-        pip install -r requirements.txt
-        pip install unittest
-
     - name: Executar Testes
       run: python test_divisao.py
