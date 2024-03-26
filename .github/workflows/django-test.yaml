@@ -1,4 +1,4 @@
-name: Teste de Integração
+name: Teste de Unidade
 
 on:
   pull_request:
