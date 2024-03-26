@@ -20,5 +20,4 @@ class TestDividir(unittest.TestCase):
     def test_dividir_por_zero(self):
         with self.assertRaises(ValueError):
             dividir(10, 0)
-
 unittest.main()
