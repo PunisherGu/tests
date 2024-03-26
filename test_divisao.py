@@ -1,8 +1,8 @@
 import unittest
 
 def dividir(dividendo, divisor):
-    if divisor == 0:
-        raise ValueError("Não é possível dividir por zero.")
+    # if divisor == 0:
+    #     raise ValueError("Não é possível dividir por zero.")
     return dividendo / divisor
 
 class TestDividir(unittest.TestCase): 
